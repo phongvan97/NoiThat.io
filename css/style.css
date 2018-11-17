@@ -1,0 +1,47 @@
+.banner{
+    background: url("../images/banner.jpg") top center ;
+    width: 100%;
+    height:936px;
+
+    display: table;
+    margin-top:-150px;
+}
+.header {
+    height: 150px;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.header nav ul{
+    list-style: none;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.header nav li{
+    float: left;
+}
+.header nav a{
+    padding: 10px 26px;
+    color: #8d8d8d;
+    font-size: 20px;
+    display: inline-block;
+}
+.header nav a:hover{
+    text-decoration: none;
+    color: #F28F46;
+}
+.header nav i{
+    font-size: 12px;
+}
+.banner  h1  {
+    display: table-cell;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-size: 84px;
+}
+.banner h1 span{
+    color: #f66c27;
+}
